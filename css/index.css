@@ -1,0 +1,33 @@
+/*Fonts*/
+.f-guardian {
+    font-family: 'guardian';
+}
+
+.preview-container {
+    background-image: url(https://e0.pxfuel.com/wallpapers/566/538/desktop-wallpaper-star-trek-voyager.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.content-section {
+    background-color: transparent;
+}
+
+.carousel-container {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+        
+}
+.nav-link{
+    transition: 0.3s !important;
+}
+.nav-link:hover{    
+    opacity: 50% !important;
+}
