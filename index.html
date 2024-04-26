@@ -10,7 +10,7 @@
 <!--Links-->
 <link rel="stylesheet" href="./css/index.css">
 <!--Fonts-->
-<link href="https://fonts.cdnfonts.com/css/guardian" rel="stylesheet">            
+<link href="https://fonts.cdnfonts.com/css/guardian" rel="stylesheet">
 </head>
 
 <body>
@@ -46,10 +46,16 @@
                             </li>
                         </ul>
 
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
-                        </form>
+                        <div class="search-container nav-item ">
+                            <form class="d-flex nav-item " role="search">
+                                <input
+                                    class="search expandright border border-dark border-opacity-25 rounded opacity-25 text-opacity-100 text-white bg-black  "
+                                    id="searchright" type="search" name="q" placeholder="Search" aria-label="Search">
+                                <label class="button searchbutton bg-opacity-25 bg-white rounded" for="searchright"><i
+                                        class="bi bi-search text-white "></i></label>
+                            </form>
+                        </div>
+
                         <div class="nav-item dropdown d-flex">
                             <a class="nav-link dropdown-toggle ml-auto p-2 text-white" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,8 +74,8 @@
                                 <li><a class="dropdown-item text-white" href="#">Salir</a></li>
                             </ul>
                         </div>
-
                     </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -80,7 +86,7 @@
                     <div class="category d-flex text-white col-2 justify-content-center align-items-center gap-2">
                         <i class="bi bi-tv fs-4"></i>
                         <div class="f-guardian fs-5">Serie</div>
-                        
+
                     </div>
                     <div class="title col"><b>
                             <h1 class="text-white">Star Trek Voyager</h1>
