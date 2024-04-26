@@ -1,0 +1,18 @@
+/*Fonts*/
+.f-guardian {
+	font-family: 'guardian';
+    text-shadow: 2px 2px 4px black;
+}
+.f-days{
+	font-family: 'days';
+    text-shadow: 2px 2px 4px black;
+}
+
+.f-fragua{
+	font-family: 'fragua';
+}
+
+.f-smooch{
+    font-family: 'Smooch Sans', sans-serif;
+    text-shadow: 2px 2px 4px black;
+}
